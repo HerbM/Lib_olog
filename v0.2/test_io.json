@@ -1,0 +1,71 @@
+{
+	"OlogName" : "Parenté",
+	"commutes" : false,
+	"objects"  : [
+		{
+			"name": "a customer that is loyal and is a male",
+			"objectType": "Pullbacks",
+			"aspects": [
+				{
+					"aspect": "Is",
+					"aspectType": "None",
+					"target": "a loyal customer"
+				}
+				{
+					"aspect": "Is",
+					"aspectType": "None",
+					"target": "a male customer"
+				}
+			],
+
+			"name": "a loyal customer",
+			"objectType": "Empty",
+			"aspects": [
+				{
+					"aspect": "Is",
+					"aspectType": "None",
+					"target": "a customer"
+				}
+			],
+			"name": "a male customer",
+			"objectType": "Empty",
+			"aspects": [
+				{
+					"aspect": "Is",
+					"aspectType": "None",
+					"target": "a customer"
+				},
+				{
+					"aspect": "Is",
+					"aspectType": "None",
+					"target": "a man"
+				}
+			],
+
+			"name": "a customer",
+			"objectType": "Empty",
+			"aspects": [
+				{
+					"aspect": "Is",
+					"aspectType": "None",
+					"target": "a person"
+				}
+			],
+
+			"name": "a man",
+			"objectType": "Empty",
+			"aspects": [
+				{
+					"aspect": "Is",
+					"aspectType": "None",
+					"target": "a person"
+				}
+			],
+
+			"name": "a person",
+			"objectType": "Empty",
+			"aspects": []
+			
+		}
+	]
+}
