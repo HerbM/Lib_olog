@@ -1,0 +1,39 @@
+{
+	"olog_name": "parenté",
+	"objects": [{
+			"name": "a father",
+			"object_role": "Empty",
+			"aspects": [{
+					"application_type": "Ordinary",
+					"aspect_type": "Is",
+					"target": "a man"
+				},
+				{
+					"application_type": "Ordinary",
+					"aspect_type": "Is",
+					"target": "a person"
+				},
+				{
+					"application_type": "Ordinary",
+					"aspect_type": "Is",
+					"target": "a adult"
+				}
+			]
+		},
+		{
+			"name": "a man",
+			"object_role": "Empty",
+			"aspects": [{
+					"application_type": "Ordinary",
+					"aspect_type": "Is",
+					"target": "a person"
+				},
+				{
+					"application_type": "Ordinary",
+					"aspect_type": "Is",
+					"target": "a adult"
+				}
+			]
+		}
+	]
+}
